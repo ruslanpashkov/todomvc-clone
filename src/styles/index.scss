@@ -1,0 +1,15 @@
+@use "todoapp.scss";
+@use "todo.scss";
+@use "filter.scss";
+@use "item.scss";
+@use "notification.scss";
+
+html {
+  background: none;
+}
+
+body {
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+}

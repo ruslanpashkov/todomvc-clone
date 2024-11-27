@@ -1,0 +1,15 @@
+.notification {
+  transition-property: opacity, min-height;
+  transition-duration: 1s;
+  min-height: 36px;
+}
+
+.notification.hidden {
+  min-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.notification.hidden .delete {
+  pointer-events: none;
+}
